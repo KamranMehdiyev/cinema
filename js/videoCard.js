@@ -1,5 +1,6 @@
 class VideoCard{
     render(url, title){
+        console.log(url)
         return(
             `<div class="grid_card">
                 <video src="${url}" controls=""></video>

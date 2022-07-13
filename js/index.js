@@ -76,7 +76,7 @@ fetch(action_and_adventure_mv_api)
 // })
 
 
-fetch('../db/videosapi.json')
+fetch('./db/videosapi.json')
 .then(resp=>resp.json())
 .then(videos=>{
     videos.forEach((video, i)=>{
